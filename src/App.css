@@ -1,0 +1,26 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+body{
+    background-color: var(--bg);
+    color: var(--text);
+    transition: background-color .5s, color .5s;
+}
+.light{
+    --bg:white;
+    --text:rgb(17, 17, 17);
+}
+.dark{
+    --bg:rgb(66, 66, 66);
+    --text:rgb(255, 255, 255);
+}
+
+  
+
+  
